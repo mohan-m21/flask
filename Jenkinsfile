@@ -8,7 +8,7 @@ pipeline {
     stage('GIT CHECKOUT') {
       steps {
         git branch: 'main'
-        url :'https://github.com/mohan-m21/flask.git'
+        url: 'https://github.com/mohan-m21/flask.git'
       }
     }
       stage('Install Dependencies') {
